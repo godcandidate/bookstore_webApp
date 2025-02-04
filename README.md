@@ -1,18 +1,13 @@
-Certainly! Below is a well-structured and professional `README.md` for your Node.js-based eCommerce bookstore web application repository. This README includes sections such as an overview, architecture, setup instructions, deployment process, CI/CD pipeline, and optional contributions.
-
----
-
 # 📚 Bookstore Web Application
 
 ## Table of Contents
 1. [Overview](#overview)
 2. [Architecture](#architecture)
-3. [Features](#features)
-4. [Prerequisites](#prerequisites)
-5. [Setup Instructions](#setup-instructions)
-6. [Deployment](#deployment)
-7. [CI/CD Pipeline](#ci-cd-pipeline)
-10. [License](#license)
+3. [Prerequisites](#prerequisites)
+4. [Setup Instructions](#setup-instructions)
+5. [Deployment](#deployment)
+6. [CI/CD Pipeline](#ci-cd-pipeline)
+7. [License](#license)
 
 ---
 
@@ -20,7 +15,6 @@ Certainly! Below is a well-structured and professional `README.md` for your Node
 
 The **Bookstore Web Application** is a modern eCommerce platform built using **React.js** to manage and sell books online. The application is containerized using **Docker**, deployed on **AWS EC2**, and managed through a robust **CI/CD pipeline** powered by **Jenkins**. It provides a seamless user experience with features like book listings, shopping cart functionality, and order management.
 
-This project demonstrates best practices in software development, including automated testing, continuous integration, and deployment.
 
 ---
 
@@ -39,16 +33,6 @@ The application follows a microservices-based architecture, leveraging the follo
 
 ---
 
-## Features
-
-- **User-Friendly Interface**: Easily browse and purchase books.
-- **Shopping Cart**: Add items to the cart and proceed to checkout.
-- **Order Management**: View order history and track status.
-- **Admin Panel**: Manage inventory, orders, and users.
-- **Scalability**: Designed to handle high traffic with containerization and reverse proxy.
-- **Security**: Secure communication using HTTPS and secure database connections.
-
----
 
 ## Prerequisites
 
