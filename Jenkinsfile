@@ -14,7 +14,7 @@ pipeline {
                 script {
                    // sh 'npm install'  // Install dependencies
                    // sh 'npm run build'  // Build the app
-                   echo "Building dependencies"
+                   echo "Building dependencies .."
                 }
             }
         }
