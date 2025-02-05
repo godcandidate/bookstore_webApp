@@ -4,7 +4,8 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/godcandidate/bookstore_webApp.git'
+                //git 'https://github.com/godcandidate/bookstore_webApp.git'
+                checkout scm 
             }
         }
 
