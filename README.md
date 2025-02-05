@@ -16,6 +16,7 @@
 The **Bookstore Web Application** is a modern eCommerce platform built using **React.js** to manage and sell books online. The application is containerized using **Docker**, deployed on **AWS EC2**, and managed through a robust **CI/CD pipeline** powered by **Jenkins**. It provides a seamless user experience with features like book listings, shopping cart functionality, and order management.
 
 
+
 ---
 
 ## Architecture
