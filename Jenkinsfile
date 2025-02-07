@@ -12,9 +12,8 @@ pipeline {
         stage('Build') {
             steps {
                 script {
-                   // sh 'npm install'  // Install dependencies
-                   // sh 'npm run build'  // Build the app
-                   echo "Building dependencies"
+                   sh 'npm install'  // Install dependencies
+                   sh 'npm build'  // Build the app
                 }
             }
         }
@@ -22,8 +21,7 @@ pipeline {
         stage('Test') {
             steps {
                 script {
-                    //sh 'npm test'  // Run tests
-                    echo "Testing"
+                    sh 'npm test'
                 }
             }
         }
