@@ -13,7 +13,7 @@ pipeline {
             steps {
                 script {
                    sh 'npm install'  // Install dependencies
-                   sh 'npm build'  // Build the app
+                   sh 'npm run build'  // Build the app
                 }
             }
         }
